@@ -1,0 +1,29 @@
+<!-- Frontend interface for pubsub -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Business Days</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+</head>
+
+<body>
+  <div>
+    <div>
+      <div id="query"></div>
+      <div id="result"></div>
+      <div id='error'></div>
+    </div>
+    <input type="date" id='date' placeholder="date" />
+    <input type="text" name="delay" id="delay" placeholder="delay">
+    <button id="send">Send</button>
+  </div>
+
+  <script src="/public.js"></script>
+</body>
+
+</html>
